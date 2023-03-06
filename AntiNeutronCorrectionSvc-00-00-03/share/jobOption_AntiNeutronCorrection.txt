@@ -1,0 +1,6 @@
+ApplicationMgr.DLLs += { "AntiNeutronCorrectionSvc" };
+ApplicationMgr.ExtSvc += { "AntiNeutronCorrectionSvc" };
+
+AntiNeutronCorrectionSvc.eff_path = "/afs/ihep.ac.cn/users/l/liul/jpsigroup5/software/AntiNeutronCorr/AntiNeutronCorr-00-00-02/rootfile/efficiency_0.40_0_0.root";
+AntiNeutronCorrectionSvc.error_matrix_path = "/afs/ihep.ac.cn/users/l/liul/jpsigroup5/software/AntiNeutronCorr/AntiNeutronCorr-00-00-02/rootfile/errmatrix_0.40_0_0.root";
+

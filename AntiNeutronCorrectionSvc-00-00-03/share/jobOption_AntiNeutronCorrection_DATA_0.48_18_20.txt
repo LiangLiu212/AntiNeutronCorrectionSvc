@@ -1,0 +1,9 @@
+ApplicationMgr.DLLs += { "AntiNeutronCorrectionSvc" };
+ApplicationMgr.ExtSvc += { "AntiNeutronCorrectionSvc" };
+
+AntiNeutronCorrectionSvc.eff_path = "/home/lliu/ustcfs/software/AntiNeutronCorr/AntiNeutronCorr-00-00-01/DATA/efficiency_0.48_18_20.root";
+AntiNeutronCorrectionSvc.error_matrix_path = "/home/lliu/ustcfs/software/AntiNeutronCorr/AntiNeutronCorr-00-00-01/DATA/errmatrix_0.48_18_20.root";
+AntiNeutronCorrectionSvc.Nbar_Energy = 0.48;
+AntiNeutronCorrectionSvc.Nbar_SecMom = 18;
+AntiNeutronCorrectionSvc.Nbar_Hits = 20;
+

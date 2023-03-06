@@ -1,0 +1,8 @@
+ApplicationMgr.DLLs += { "AntiNeutronCorrectionSvc" };
+//ApplicationMgr.DLLs += { "AntiNeutronTrk" };
+ApplicationMgr.ExtSvc += { "AntiNeutronCorrectionSvc" };
+
+AntiNeutronCorrectionSvc.eff_path = "/ustcfs2/BESUser/2018/lliu/rootscript/BOSS705/pnbarpi/AntiNeutronCorr/AntiNeutronCorr-00-00-01/rootfile/efficiency.root";
+AntiNeutronCorrectionSvc.error_matrix_path = "/ustcfs2/BESUser/2018/lliu/rootscript/BOSS705/pnbarpi/AntiNeutronCorr/AntiNeutronCorr-00-00-01/rootfile/errmatrix.root";
+
+

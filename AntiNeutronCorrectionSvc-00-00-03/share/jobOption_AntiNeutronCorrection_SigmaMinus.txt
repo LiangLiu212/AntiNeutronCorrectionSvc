@@ -1,0 +1,9 @@
+ApplicationMgr.DLLs += { "AntiNeutronCorrectionSvc" };
+//ApplicationMgr.DLLs += { "AntiNeutronTrk" };
+ApplicationMgr.ExtSvc += { "AntiNeutronCorrectionSvc" };
+
+AntiNeutronCorrectionSvc.eff_path = "/ustcfs2/BESUser/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/dataall/SigmaMinus/nbar_efficiency_large.root";
+AntiNeutronCorrectionSvc.error_matrix_path = "/ustcfs2/BESUser/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/dataall/SigmaMinus/nbar_error_matrix_large.root";
+
+
+

@@ -1,0 +1,13 @@
+ApplicationMgr.DLLs += { "AntiNeutronCorrectionSvc" };
+//ApplicationMgr.DLLs += { "AntiNeutronTrk" };
+ApplicationMgr.ExtSvc += { "AntiNeutronCorrectionSvc" };
+
+AntiNeutronCorrectionSvc.eff_path = "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/dataall/Lambda/nbar_efficiency_large.root";
+AntiNeutronCorrectionSvc.error_matrix_path = "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/dataall/Lambda/nbar_error_matrix_large.root";
+
+
+//AntiNeutronCorrectionSvc.eff0912_path =  "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/SigmaMinus/nbar0205_efficiency_large_v3.root" ;
+//AntiNeutronCorrectionSvc.error_matrix0912_path = "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/SigmaMinus/nbar0205_error_matrix_large.root";
+//AntiNeutronCorrectionSvc.eff18_path =  "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/SigmaMinus/nbar1112_efficiency_large_v3.root" ;
+//AntiNeutronCorrectionSvc.error_matrix18_path = "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/SigmaMinus/nbar1112_error_matrix_large.root";
+//AntiNeutronCorrectionSvc.rdmSeed = 3124;

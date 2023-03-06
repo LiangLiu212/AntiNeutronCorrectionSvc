@@ -1,0 +1,11 @@
+jobOption_AntiNeutronCorrection.txt
+
+
+
+		Thu Sep 10 23:01:26 CST 2020
+
+
+AntiNeutronCorrectionSvc.eff0912_path =  "/ustcfs/bes3user/2018/lliu/rootscript/BOSS705/pnbarpi/alldata/largeRvx/data/SigmaMinus/nbar0205_efficiency_large_v3.root" ;
+			This is for Sigma Minus correction 
+			with requirements :  angle(nbar, proton) > 40 degree
+								 angle(nbar, pion)   > 40 degree
